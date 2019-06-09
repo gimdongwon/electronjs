@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="168" height="240" viewBox="0 0 168 240">
+    <defs>
+        <rect id="b" width="148" height="220" rx="18"/>
+        <filter id="a" width="121.6%" height="114.5%" x="-10.8%" y="-6.4%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(10 8)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#FFF" xlink:href="#b"/>
+        </g>
+        <text fill="#E21837" font-family="Athelas-Regular, Athelas" font-size="18.4" transform="translate(10 8)">
+            <tspan x="10.367" y="21">N</tspan>
+        </text>
+        <text fill="#E21837" font-family="Symbol" font-size="18.4" transform="translate(10 8)">
+            <tspan x="10.073" y="39">♠</tspan>
+        </text>
+        <g fill="#E21837" font-size="18.4">
+            <text font-family="Athelas-Regular, Athelas" transform="rotate(-180 77 111.5)">
+                <tspan x="6.367" y="16">N</tspan>
+            </text>
+            <text font-family="Symbol" transform="rotate(-180 77 111.5)">
+                <tspan x="6.073" y="34">♠</tspan>
+            </text>
+        </g>
+        <path stroke="#E21837" stroke-width=".9" d="M41 23.01h86.826s3.196-.063 6.753 6.08c0 0 .06 1.014 5.125.951l4.583.003s2.411-.7 2.653-2.916c0 0 .483-4.37-3.98-4.117 0 0-3.195.507-3.195 4.37v5.89s1.228 3.927 5.81 6.017c0 0 1.425.064 1.425 12.414V183M127 212.99H40.174s-3.196.063-6.753-6.08c0 0-.06-1.014-5.125-.951l-4.583-.003s-2.411.7-2.653 2.916c0 0-.483 4.37 3.98 4.117 0 0 3.195-.507 3.195-4.37v-5.89s-1.228-3.927-5.81-6.017c0 0-1.425-.064-1.425-12.414V53"/>
+    </g>
+</svg>
